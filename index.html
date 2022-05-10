@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Seiche Vert Art Gallery</title>
+  </head>
+  
+  <body>
+    <nav id="mainNavBar" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#" id="logo">SEICHE VERTE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutCol">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+      <div class="row pt-5">
+        <div id="headingGroup" class="col-md-6 text-center align-self-center text-white d-none d-md-block" >
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+            <h2>SEICHE<span class="red-text"> | </span>VERTE<span class="red-text"> | </span>ART</h2>
+        </div>
+        <div id="image1" class="col-md-6 text-center">
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div id="image2" class="col-md-6 order-2 order-md-1"></div>
+        <div id="aboutCol"  class=" order-1 order-md-2 col-md-6 text-center align-self-center justify-content-center">
+          <h2 id="aboutUsHeading" class="red-text">About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates facilis reiciendis mollitia dolorum animi esse architecto modi ratione sint neque ipsam hic accusantium, molestiae ipsum doloribus tenetur dolorem, tempore ut explicabo maiores vero? Reiciendis quo porro nihil architecto, perferendis cum iure. Maxime doloremque, exercitationem sequi dolores delectus qui molestiae quam eius, cumque sint officiis vel explicabo sit. Deleniti nam dolorum blanditiis dolor inventore earum cum ab obcaecati assumenda voluptatum, eos deserunt quia cupiditate. Possimus officiis animi voluptas assumenda voluptatem minima cupiditate autem. Obcaecati facere animi voluptate quibusdam mollitia vero quasi sed consequatur laudantium et quaerat ab, rerum voluptatum iure ipsa!</p>    
+        </div>
+      </div>
+      
+    </div>
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    <script>
+      $(function () {
+        $(document).scroll(function() {
+          var $nav = $(".navbar");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+  </body>
+</html>
