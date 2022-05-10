@@ -62,14 +62,14 @@ p {
 }
 
 #image1 {
-    background-image: url(/imgs/img1.jpg);
+    background-image: url(imgs/img1.jpg);
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #image2 {
-    background-image: url(/imgs/img2.jpg);
+    background-image: url(imgs/img2.jpg);
     height: 90vh;
     background-position: center;
     background-size: contain;
@@ -77,7 +77,7 @@ p {
 }
 
 #image3 {
-    background-image: url(/imgs/img3.jpg);
+    background-image: url(imgs/img3.jpg);
     height: 80vh;
     background-position: center;
     background-size: contain;
