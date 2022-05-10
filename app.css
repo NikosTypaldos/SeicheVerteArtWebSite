@@ -76,6 +76,14 @@ p {
     background-repeat: no-repeat;
 }
 
+#image3 {
+    background-image: url(/imgs/img3.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #aboutCol {
     font-size: 1.2rem;
     font-weight: 300;
@@ -85,6 +93,16 @@ p {
 #aboutUsHeading {
     font-size: 2em;
     font-weight: 200;
+}
+
+#theGalleryCol {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 7%;
+}
+
+#submitBtn {
+    width: 25%;
 }
 
 .navbar.scrolled {
